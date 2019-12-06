@@ -13,8 +13,12 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class DeptVO extends BaseVO{
+public class DeptVO{
 
     private Integer id;
     private String deptName;
+
+    // 自己实现的一个参数，用来给前端传递加密字符串
+    private String encryptJson;
+
 }

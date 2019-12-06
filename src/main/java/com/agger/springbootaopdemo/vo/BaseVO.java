@@ -10,7 +10,6 @@ import lombok.Data;
  **/
 @Data
 public class BaseVO {
-
     // 加密密文
     private String encryptStr;
 }
