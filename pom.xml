@@ -43,7 +43,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.52.sec06</version>
+            <version>1.2.83</version>
         </dependency>
         <!-- String工具包 -->
         <dependency>
